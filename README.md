@@ -2,6 +2,8 @@
 
 Walle Workorder Platform helps your work with a costom workflow. it's also a demo of [Walle.WorkFlowEngine](https://github.com/WalleStudio/Walle.WorkFlowEngine)
 
+[TOC]
+
 ## Road Map
 
 ### Custom WorkSheet Templates Management
@@ -23,3 +25,12 @@ Walle工作流引擎能够支持用户进行自定义系统字段和自定义的
 ### WorkNode Management
 
 Walle工作流引擎的工作流节点使用插件式的开发方式,在Walle工单系统中, 可以进行上传自己的dll文件并加载到系统中,相同的工作节点可以有多个版本并行在系统之中.
+
+## Develop
+
+```
+npm install
+dotnet restore
+webpack -w
+dotnet run
+```
